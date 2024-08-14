@@ -492,7 +492,72 @@ margin-right: auto;
     max-width: 1440px;
     height: 100px;
    align-items: center;
-   margin-top: -10px;    
+   margin-top: -10px;
+   text-align: center;    
 }
+/* responsive media query */
+
+@media screen and (max-width: 576px) {
+.navbar, 
+.banner-content, 
+.banner-card,
+.habit-img,
+.footer,
+.bmi-calculation,
+.footer{
+    flex-direction: column;
+}
+.nav-list{
+    padding-bottom: 70px;
+   
+}
+
+.banner-card2{
+margin-left: 200px;
+
+}
+.habits-content{
+    margin-top: 450px;
+    margin-left: -300px;
+    height: 1490px;
+}
+.run-and-fitness{
+    flex-direction: column;
+   
+}
+.run-content{
+    margin-top: -10px;
+    height: 780px;
+}
+.bmi-container{
+    margin-left: 150px;
+}
+.bmi-calculation{
+    height: 850px;
+   padding-left: 150px;
+
+}
+.team-content{
+    margin-top: 840px;
+    width:576px;
+    
+}
+.footer{
+    height: 1000px;
+    margin-top: 950px;
+}
+.team-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+}   
+
+
+  
+
+
+
+
 
 
